@@ -1,0 +1,4 @@
+.vagrant/*
+arquivos/*
+*.zip
+*.gem
