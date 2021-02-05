@@ -80,6 +80,8 @@ cp -f arquivos/* /home/vagrant/arquivos/
 
 cp -f lib/mariadb* /home/vagrant/pentaho/data-integration/lib/
 
+cp Pentaho\ Data\ Integration.desktop /home/vagrant/Desktop/
+
 sudo chown -R vagrant:vagrant /home/vagrant/* /home/vagrant/.kettle
 
 # instalar o display manager e a graphic interface 

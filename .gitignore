@@ -2,3 +2,4 @@
 arquivos/*
 *.zip
 *.gem
+/*.log

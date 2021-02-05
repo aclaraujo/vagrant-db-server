@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Pentaho Data Integration
+Comment=
+Exec=/home/vagrant/pentaho/data-integration/spoon.sh
+Icon=/home/vagrant/pentaho/data-integration/spoon.png
+Path=/home/vagrant/pentaho/data-integration
+Terminal=true
+StartupNotify=false
