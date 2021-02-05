@@ -80,10 +80,12 @@ cp -f arquivos/* /home/vagrant/arquivos/
 
 cp -f lib/mariadb* /home/vagrant/pentaho/data-integration/lib/
 
+sudo chown -R vagrant:vagrant /home/vagrant/* /home/vagrant/.kettle
+
 # instalar o display manager e a graphic interface 
 
 sudo apt-get -y install libwebkitgtk-1.0-0
 
-sudo apt-get -y install xfce4 slim virtualbox-guest-dkms virtualbox-guest-utils virtualbox-guest-x11
+sudo apt-get -y install virtualbox-guest-dkms virtualbox-guest-utils virtualbox-guest-x11
 
-sudo service slim start
+sudo apt-get -y install xfce4 slim
